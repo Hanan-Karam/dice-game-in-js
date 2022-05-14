@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFFDDE;
+    font-family: 'Acme', sans-serif;
+}
+
+.container{
+    max-width: 700px;
+    height: 600px;
+    margin:150px auto;
+    background-color: #E7FBBE;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+h1{
+    font-size: 60px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    color:#1A5F7A;
+}
+
+.players{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h2, .score-1, .score-2{
+    display: inline-block;
+    font-size:40px;
+    color:#1A5F7A;
+    text-align: center;
+    padding-left:8px;
+}
+
+.score-1, .score-2 , #num{
+    color:#FFCBCB;
+    font-size:60px;
+}
+
+.card-1 , .card-2{
+    display: block;
+    text-align: center;
+    font-size: 110px;
+    width: 150px;
+    height: 150px;
+    background-color: #D9D7F1;
+    color:#086E7D;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+
+.btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#roll , #reset{
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #FFCBCB;
+    font-size: 35px;
+    color:#1A5F7A;
+    font-family: 'Acme';
+}
+
+#reset{
+    display: none;
+}
+
+.current-player{
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
